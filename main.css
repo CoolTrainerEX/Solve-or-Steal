@@ -1,0 +1,108 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+}
+
+b {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+section {
+    border-bottom: 5px solid darkblue;
+    padding: 1em;
+    background-color: lightblue;
+    text-align: center;
+}
+
+section.yellow {
+    background-color: lightyellow;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+p {
+    font-size: x-large;
+}
+
+div.button {
+    width: fit-content;
+    margin: 5em auto;
+    border: 5px solid darkblue;
+    padding: 0.5em;
+    background-color: lightblue;
+    color: darkblue;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.button:hover {
+    border-color: blue;
+    background-color: lightyellow;
+    color: blue;
+}
+
+header {
+    display: flex;
+    padding: 5px;
+    background-color: lightyellow;
+}
+
+header * {
+    width: fit-content;
+}
+
+#icon {
+    width: 1.5em; /* Fixes Safari stretching flexbox images */
+    height: 1.5em;
+    margin-right: 0.25em;
+    vertical-align: middle;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header p {
+    margin-top: auto;
+    margin-left: 1em;
+    font-size: 2vw;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    border-bottom: 5px solid darkblue;
+    background-color: lightblue;
+}
+
+nav a {
+    padding: 0.5em;
+    font-size: x-large;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px 100px;
+    background-color: black;
+    color: gray;
+}
