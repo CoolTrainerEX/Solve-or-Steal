@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="game.css">
-    <link rel="shortcut icon" href="/assets/img/icon.png" type="image/png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="/Solve-or-Steal/assets/img/icon.png" type="image/png">
     <title>Solve or Steal | Online game tool</title>
 </head>
 <body>
-    
+    <svg class="timer" id="top-left"></svg>
+    <svg class="player" id="top">
+        <ellipse cx="50%" cy="50%" rx="50%" ry="50%" fill="blue" />
+    </svg>
+    <svg class="timer" id="top-right"></svg>
+    <svg class="player" id="left">
+        <ellipse cx="50%" cy="50%" rx="50%" ry="50%" fill="blue" />
+    </svg>
+    <div id="screen"></div>
+    <svg class="player" id="right">
+        <ellipse cx="50%" cy="50%" rx="50%" ry="50%" fill="blue" />
+    </svg>
+    <svg class="timer" id="bottom-left"></svg>
+    <svg class="player" id="bottom">
+        <ellipse cx="50%" cy="50%" rx="50%" ry="50%" fill="blue" />
+    </svg>
+    <svg class="timer" id="bottom-right"></svg>
 </body>
 <script src="game.js"></script>
 </html>
