@@ -12,6 +12,42 @@ svg {
     height: 100%;
 }
 
+#top, #bottom {
+    grid-column: 2;
+}
+
+#left {
+    grid-column: 1;
+}
+
+#screen {
+    margin: 5px;
+    border: 5px solid blue;
+    background-color: lightyellow;
+}
+
+text {
+    fill: darkblue;
+    text-anchor: middle;
+    dominant-baseline: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#top text {
+    transform-origin: 50% 50%;
+    transform: rotate(180deg);
+}
+
+#left text {
+    transform-origin: 50% 50%;
+    transform: rotate(90deg);
+}
+
+#right text {
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
+
 @media (orientation: landscape) {
     body {
         grid-template: 20vh auto 20vh / 20vh auto 20vh;
@@ -20,6 +56,10 @@ svg {
     #top, #bottom {
         width: 60vh;
         margin: auto;
+    }
+
+    text {
+        font-size: 10vh;
     }
 }
 
@@ -32,14 +72,8 @@ svg {
         height: 60vw;
         margin: auto;
     }
-}
 
-#screen {
-    margin: 5px;
-    border: 5px solid blue;
-    background-color: lightyellow;
-}
-
-.timer {
-    background-color: lightgray;
+    text {
+        font-size: 10vw;
+    }
 }
