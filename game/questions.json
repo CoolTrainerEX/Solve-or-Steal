@@ -1,0 +1,10 @@
+[
+    {
+        "question": "\\[\\lim_{x \\to \\infty} \\frac {5x} {7x^2}\\]",
+        "answer": "0"
+    },
+    {
+        "question": "\\[\\lim_{x \\to 2} 8x - 4\\]",
+        "answer": "12"
+    }
+]

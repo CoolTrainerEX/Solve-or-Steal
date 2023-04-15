@@ -36,14 +36,16 @@ text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#screen div {
+#screen p {
+    height: fit-content;
+    margin: auto;
     color: darkblue;
     text-align: center;
+    font-size: 3vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 
-button {
+button, textarea {
     width: fit-content;
     margin: auto;
     border: 0.25em solid darkblue;
@@ -67,10 +69,6 @@ button {
         font-size: 10vh;
     }
 
-    #screen div {
-        font-size: 10vh;
-    }
-
     button {
         font-size: 5vh;
     }
@@ -87,10 +85,6 @@ button {
     }
 
     text {
-        font-size: 10vw;
-    }
-
-    #screen div {
         font-size: 10vw;
     }
 
