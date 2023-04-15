@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, div.button:hover {
     background-color: white;
 }
 
@@ -48,12 +48,6 @@ div.button {
     color: darkblue;
     font-size: larger;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-div.button:hover {
-    border-color: blue;
-    background-color: lightyellow;
-    color: blue;
 }
 
 header {

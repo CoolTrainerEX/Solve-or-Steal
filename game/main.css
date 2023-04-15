@@ -21,8 +21,10 @@ svg {
 }
 
 #screen {
+    display: grid;
     margin: 5px;
     border: 5px solid blue;
+    padding: 5px;
     background-color: lightyellow;
 }
 
@@ -48,6 +50,23 @@ text {
     transform: rotate(-90deg);
 }
 
+p {
+    color: darkblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+button {
+    width: fit-content;
+    margin: auto;
+    border: 0.25em solid darkblue;
+    padding: 0.5em;
+    background-color: lightblue;
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 @media (orientation: landscape) {
     body {
         grid-template: 20vh auto 20vh / 20vh auto 20vh;
@@ -60,6 +79,14 @@ text {
 
     text {
         font-size: 10vh;
+    }
+
+    p {
+        font-size: 10vh;
+    }
+
+    button {
+        font-size: 5vh;
     }
 }
 
@@ -75,5 +102,13 @@ text {
 
     text {
         font-size: 10vw;
+    }
+
+    p {
+        font-size: 10vw;
+    }
+
+    button {
+        font-size: 5vw;
     }
 }
