@@ -35,7 +35,7 @@ text {
 
 #top text {
     transform-origin: 50% 50%;
-    -webkit-transform: rotate(179.9deg);
+    -webkit-transform: rotate(120deg);
     transform: rotate(180deg);
 }
 
