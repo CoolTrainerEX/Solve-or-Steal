@@ -36,6 +36,24 @@ text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#top text {
+    transform: rotateZ(180deg);
+}
+
+@media only screen and not ((max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1)) {
+    #top text {
+        /* transform: rotate(180deg); */
+    }
+
+    #left text {
+        transform: rotate(90deg);
+    }
+
+    #right text {
+        transform: rotate(-90deg);
+    }
+}
+
 #screen p {
     height: fit-content;
     margin: auto;
@@ -55,7 +73,7 @@ button, textarea {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-@media (orientation: landscape) {
+@media only screen and (orientation: landscape) {
     body {
         grid-template: 20vh auto 20vh / 20vh auto 20vh;
     }
@@ -74,7 +92,7 @@ button, textarea {
     }
 }
 
-@media (orientation: portrait) {
+@media only screen and (orientation: portrait) {
     body {
         grid-template: 20vw auto 20vw / 20vw auto 20vw;
     }
