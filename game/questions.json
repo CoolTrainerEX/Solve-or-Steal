@@ -1,18 +1,22 @@
 [
     {
         "question": "\\[\\lim_{x \\to \\infty} \\frac {5x} {7x^2}\\]",
-        "answer": "0"
+        "answer": "0",
+        "difficulty": "Easy"
     },
     {
         "question": "\\[\\lim_{x \\to 2} 8x - 4\\]",
-        "answer": "12"
+        "answer": "12",
+        "difficulty": "Easy"
     },
     {
         "question": "\\[\\lim_{x \\to 4} 6x - 7\\]",
-        "answer": "17"
+        "answer": "17",
+        "difficulty": "Easy"
     },
     {
         "question": "\\[\\lim_{x \\to 3} \\frac {x + 1} {x - 3}\\]",
-        "answer": "undefined"
+        "answer": "undefined",
+        "difficulty": "Easy"
     }
 ]
