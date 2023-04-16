@@ -46,8 +46,7 @@ function nextTurn() {
     });
 
     players[currentPlayer].firstElementChild.setAttribute("fill", "lightgreen");
-    screen.firstElementChild.innerHTML = questions[currentQuestion].question;
-    MathJax.typeset();
+    katex.render(questions[currentQuestion].question, screen.firstElementChild.innerHTML);
 
     // Timer
 
