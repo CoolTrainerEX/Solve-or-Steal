@@ -6,5 +6,13 @@
     {
         "question": "\\[\\lim_{x \\to 2} 8x - 4\\]",
         "answer": "12"
+    },
+    {
+        "question": "\\[\\lim_{x \\to 4} 6x - 7\\]",
+        "answer": "17"
+    },
+    {
+        "question": "\\[\\lim_{x \\to 3} \\frac {x + 1} {x - 3}\\]",
+        "answer": "undefined"
     }
 ]

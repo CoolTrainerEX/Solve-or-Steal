@@ -21,7 +21,7 @@ svg {
 }
 
 #screen {
-    display: flex;
+    display: grid;
     margin: 5px;
     border: 5px solid blue;
     padding: 5px;
