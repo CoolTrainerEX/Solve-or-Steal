@@ -31,8 +31,8 @@ svg {
 text {
     fill: darkblue;
     transform-origin: center;
-    text-anchor: middle;
-    dominant-baseline: middle;
+    /* text-anchor: middle;
+    dominant-baseline: middle; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -41,7 +41,7 @@ text {
     margin: auto;
     color: darkblue;
     text-align: center;
-    font-size: 3vh;
+    font-size: 5vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
