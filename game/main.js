@@ -69,10 +69,12 @@ function nextTurn() {
     }, 1000);
 }
 
+const incorrectScreen = "<p>Incorrect!</p>";
+
 function checkAnswer() {
     if (screen.firstElementChild.value == questions[currentQuestion].answer || playersAnswered.length == 4) {
         if (playersAnswered.length == 4) {
-            screen.innerHTML = "<p>Incorrect!</p>";
+            screen.innerHTML = incorrectScreen;
         } else {
             screen.innerHTML = `<p>Correct!<br>Difficulty: ${questions[currentQuestion].difficulty}</p>`;
         }
