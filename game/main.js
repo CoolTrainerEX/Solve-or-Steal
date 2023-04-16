@@ -1,15 +1,20 @@
 var players = [document.getElementById("bottom"), document.getElementById("left"), document.getElementById("top"), document.getElementById("right")];
 var screen = document.getElementById("screen");
-var questionDisplay = screen.firstElementChild;
 var questions = []
 fetch("questions.json")
 .then(response => response.json())
 .then(data => questions = data);
 
-const oldScreen = "<p></p><button onclick=\"nextTurn()\">Next Question</button>";
-const inputScreen = "<textarea></textarea>";
+const questionScreen = "<p></p>";
+const inputScreen = "<textarea placeholder=\"Input answer\"></textarea>";
 var currentQuestion = 0;
-var currentPlayer = screen;
+var currentPlayer = null;
+
+function setPlayerButton(string) {
+    players.forEach(player => {
+                player.lastElementChild.innerHTML = string;
+            });
+}
 
 function shuffle(array) {
     let currentIndex = array.length,  randomIndex;
@@ -29,14 +34,19 @@ function shuffle(array) {
 shuffle(questions);
 
 function nextTurn() {
-    if (questions[currentQuestion]) {
+    if (questions[currentQuestion] == undefined) {
         shuffle(questions);
         currentQuestion = 0;
     }
 
-    currentPlayer = players[currentQuestion % 4];
-    currentPlayer.firstElementChild.setAttribute("fill", "lightgreen");
-    questionDisplay.innerHTML = questions[currentQuestion].question;
+    screen.innerHTML = questionScreen;
+    if (currentPlayer == null) currentPlayer = currentQuestion % 4;
+    players.forEach(player => {
+        player.firstElementChild.setAttribute("fill", "blue");
+    });
+
+    players[currentPlayer].firstElementChild.setAttribute("fill", "lightgreen");
+    screen.firstElementChild.innerHTML = questions[currentQuestion].question;
     MathJax.typeset();
 
     // Timer
@@ -46,24 +56,28 @@ function nextTurn() {
     
     let time = 20;
     var countdown = setInterval(() => {
-        players.forEach(player => {
-            player.lastElementChild.innerHTML = time;
-        });
+        setPlayerButton(time);
         time--;
-        if (time == 0) {
+        if (time < 0) {
             clearInterval(countdown);
 
             // Input screen
             screen.innerHTML = inputScreen;
-            players.forEach(player => {
-                player.lastElementChild.innerHTML = "";
-            });
-            currentPlayer.firstElementChild.innerHTML = Submit;
-            currentPlayer.firstElementChild.addEventListener("click", () => {
-                // Check answer
-                if (screen.firstElementChild.textContent == currentQuestion.answer) nextTurn();
-                else toStealScreen();
+            setPlayerButton("");
+            players[currentPlayer].lastElementChild.innerHTML = "Submit";
+            players[currentPlayer].addEventListener("click", () => {
+                if (screen.firstElementChild.value == questions[currentQuestion].answer) {
+                    currentQuestion++;
+                    currentPlayer = null;
+                    nextTurn();
+                } else {
+                    players.forEach(player => {
+                        player.firstElementChild.setAttribute("fill", "lightgreen");
+                        player.addEventListener("click", steal());
+                    });
+                    setPlayerButton("Steal");
+                }
             });
         };
-    }, 1000);
+    }, 100);
 }
