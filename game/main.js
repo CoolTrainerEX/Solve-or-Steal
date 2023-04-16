@@ -75,7 +75,7 @@ function checkAnswer() {
         if (playersAnswered.length == 4) {
             screen.innerHTML = "<p>Incorrect!</p>";
         } else {
-            screen.innerHTML = `<p>Correct!\nDifficulty: ${questions[currentQuestion].difficulty}</p>`;
+            screen.innerHTML = `<p>Correct!<br>Difficulty: ${questions[currentQuestion].difficulty}</p>`;
         }
 
         currentQuestion++;
