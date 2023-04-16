@@ -36,18 +36,6 @@ text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#top text {
-    transform: rotate(180deg);
-}
-
-#left text {
-    transform: rotate(90deg);
-}
-
-#right text {
-    transform: rotate(-90deg);
-}
-
 #screen p {
     height: fit-content;
     margin: auto;
