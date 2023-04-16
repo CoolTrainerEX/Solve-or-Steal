@@ -8,11 +8,6 @@ fetch("questions.json")
     shuffleQuestions();
 });
 
-const questionScreen = "<p></p>";
-const inputScreen = "<textarea placeholder=\"Input answer\"></textarea>";
-const correctScreen = "<p>Correct!\nDifficulty: </p>"
-const incorrectScreen = "<p>Incorrect!</p>"
-const nextQuestionButton = "<button onclick=\"nextTurn()\">Next Question</button>"
 var currentQuestion = 0;
 var currentPlayer = null;
 var playersAnswered = [];
@@ -43,7 +38,7 @@ function nextTurn() {
         currentQuestion = 0;
     }
 
-    screen.innerHTML = questionScreen;
+    screen.innerHTML = "<p></p>";
     if (currentPlayer == null) currentPlayer = currentQuestion % 4;
     playersAnswered.push(currentPlayer);
     players.forEach(player => {
@@ -67,7 +62,7 @@ function nextTurn() {
             clearInterval(countdown);
 
             // Input screen
-            screen.innerHTML = inputScreen;
+            screen.innerHTML = "<textarea placeholder=\"Input answer\"></textarea>";
             setPlayerButton("");
             players[currentPlayer].lastElementChild.innerHTML = "Submit";
             players[currentPlayer].addEventListener("click", checkAnswer);
@@ -78,15 +73,15 @@ function nextTurn() {
 function checkAnswer() {
     if (screen.firstElementChild.value == questions[currentQuestion].answer || playersAnswered.length == 4) {
         if (playersAnswered.length == 4) {
-            screen.innerHTML = incorrectScreen;
+            screen.innerHTML = "<p>Incorrect!</p>";
         } else {
-            screen.innerHTML = correctScreen.concat(currentQuestion.difficulty);
+            screen.innerHTML = `<p>Correct!\nDifficulty: ${questions[currentQuestion].difficulty}</p>`;
         }
 
         currentQuestion++;
         currentPlayer = null;
         playersAnswered = [];
-        screen.innerHTML += nextQuestionButton;
+        screen.innerHTML += "<button onclick=\"nextTurn()\">Next Question</button>";
     } else {
         screen.innerHTML = incorrectScreen;
         
