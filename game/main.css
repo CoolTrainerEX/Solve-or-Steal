@@ -30,7 +30,7 @@ svg {
 
 text {
     fill: darkblue;
-    transform-origin: 50% 50%;
+    transform-origin: center;
     text-anchor: middle;
     dominant-baseline: middle;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
