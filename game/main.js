@@ -3,7 +3,10 @@ const screen = document.getElementById("screen");
 var questions = []
 fetch("questions.json")
 .then(response => response.json())
-.then(data => questions = data);
+.then(data => {
+    questions = data;
+    shuffleQuestions();
+});
 
 const questionScreen = "<p></p>";
 const inputScreen = "<textarea placeholder=\"Input answer\"></textarea>";
@@ -21,18 +24,13 @@ function setPlayerButton(string) {
 }
 
 function shuffleQuestions() {
-    let currentIndex = questions.length,  randomIndex;
-  
-    while (currentIndex != 0) {
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex--;
-  
-      [questions[currentIndex], questions[randomIndex]] = [questions[randomIndex], questions[currentIndex]];
-    }
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = questions[i];
+        questions[i] = questions[j];
+        questions[j] = temp;
+      }
 }
-
-// Initial shuffle
-shuffleQuestions();
 
 function nextTurn() {
     players.forEach(player => {
@@ -74,7 +72,7 @@ function nextTurn() {
             players[currentPlayer].lastElementChild.innerHTML = "Submit";
             players[currentPlayer].addEventListener("click", checkAnswer);
         };
-    }, 100);
+    }, 1000);
 }
 
 function checkAnswer() {
@@ -84,7 +82,7 @@ function checkAnswer() {
         } else {
             screen.innerHTML = correctScreen;
         }
-        
+
         currentQuestion++;
         currentPlayer = null;
         playersAnswered = [];
