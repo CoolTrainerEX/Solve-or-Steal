@@ -10,7 +10,7 @@ fetch("questions.json")
 
 const questionScreen = "<p></p>";
 const inputScreen = "<textarea placeholder=\"Input answer\"></textarea>";
-const correctScreen = "<p>Correct!</p>"
+const correctScreen = "<p>Correct!\nDifficulty: </p>"
 const incorrectScreen = "<p>Incorrect!</p>"
 const nextQuestionButton = "<button onclick=\"nextTurn()\">Next Question</button>"
 var currentQuestion = 0;
@@ -80,7 +80,7 @@ function checkAnswer() {
         if (playersAnswered.length == 4) {
             screen.innerHTML = incorrectScreen;
         } else {
-            screen.innerHTML = correctScreen;
+            screen.innerHTML = correctScreen.concat(currentQuestion.difficulty);
         }
 
         currentQuestion++;
