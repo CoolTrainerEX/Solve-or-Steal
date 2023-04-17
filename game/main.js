@@ -54,10 +54,11 @@ function nextTurn() {
     for (let i = 0; i < 255; i++) clearInterval(i);
     
     let time = 20;
+    setPlayerButton(time);
     const countdown = setInterval(() => {
-        setPlayerButton(time);
         time--;
-        if (time < 0) {
+        setPlayerButton(time);
+        if (time == 0) {
             clearInterval(countdown);
 
             // Input screen
