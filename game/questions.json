@@ -5,8 +5,48 @@
         "difficulty": "Easy"
     },
     {
+        "question": "\\displaystyle\\lim_{x \\to 12} \\frac {24x} {2x^2}",
+        "answer": "1",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 3} 3x - 6",
+        "answer": "3",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 6} \\frac {2x - 4} {2}",
+        "answer": "4",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 10} \\frac {x^2} {2x}",
+        "answer": "5",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 5} x^2 - 15",
+        "answer": "10",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 2} 5x + 1",
+        "answer": "11",
+        "difficulty": "Easy"
+    },
+    {
         "question": "\\displaystyle\\lim_{x \\to 2} 8x - 4",
         "answer": "12",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 6} \\frac {2x^2 + x} {x}",
+        "answer": "13",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 5} 7x - 20",
+        "answer": "15",
         "difficulty": "Easy"
     },
     {
@@ -15,8 +55,28 @@
         "difficulty": "Easy"
     },
     {
-        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {x + 1} {x - 3}",
-        "answer": "undefined",
+        "question": "\\displaystyle\\lim_{x \\to 1} 10x^2 + 7x",
+        "answer": "17",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {-x^2} {x}",
+        "answer": "-inf",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to -\\infty} \\frac {3x^2 + 6x} {3x}",
+        "answer": "-inf",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {2x^2} {x}",
+        "answer": "inf",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to -\\infty} \\frac {x^2} {-x}",
+        "answer": "inf",
         "difficulty": "Easy"
     }
 ]
