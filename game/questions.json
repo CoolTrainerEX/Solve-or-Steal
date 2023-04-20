@@ -78,5 +78,45 @@
         "question": "\\displaystyle\\lim_{x \\to -\\infty} \\frac {x^2} {-x}",
         "answer": "inf",
         "difficulty": "Easy"
+    },
+    {
+        "question": "\\text{Is } 4x - 9 \\text{ continuous at } x = 12",
+        "answer": "continuous",
+        "difficulty":"Easy"
+    },
+    {
+        "question": "\\text{Is } x^2 + 3x - 5 \\text{ continuous at } (4, 5)",
+        "answer": "continuous",
+        "difficulty":"Easy"
+    },
+    {
+        "question": "\\text{Is } \\frac {3x + 3} {3x} \\text{ continuous at } [0, 1)",
+        "answer": "discontinuous",
+        "difficulty":"Easy"
+    },
+    {
+        "question": "\\text{Is } \\frac {x + 1} {x - 2} \\text{ continuous at }(0, 5]",
+        "answer": "discontinuous",
+        "difficulty":"Easy"
+    },
+    {
+        "question": "\\text{Is } \\frac {5x + 2} {x^2 + 1} \\text{ continuous at } x = 0",
+        "answer": "continuous",
+        "difficulty":"Medium"
+    },
+    {
+        "question": "\\text{Is } \\frac {2x^2 - 8x + 8} {2x - 4} \\text{ continuous at } x = 2",
+        "answer": "discontinuous",
+        "difficulty":"Medium"
+    },
+    {
+        "question": "\\text{Is } \\frac {x^2 + 3} {\\sqrt {x + 3}} \\text{ continuous at }  (-3, 3]",
+        "answer": "continuous",
+        "difficulty":"Hard"
+    },
+    {
+        "question": "\\text{Is } \\frac {\\sqrt {x - 2}} {x - 5} \\text{ continuous at } [2, 6)",
+        "answer": "discontinuous",
+        "difficulty":"Hard"
     }
 ]
