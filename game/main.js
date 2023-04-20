@@ -73,7 +73,7 @@ function nextTurn() {
 const incorrectScreen = "<p>Incorrect!</p>";
 
 function checkAnswer() {
-    if (screen.firstElementChild.value == questions[currentQuestion].answer || playersAnswered.length == 4) {
+    if (screen.firstElementChild.value.toLowerCase() == questions[currentQuestion].answer || playersAnswered.length == 4) {
         if (playersAnswered.length == 4) {
             screen.innerHTML = incorrectScreen;
         } else {
