@@ -80,6 +80,46 @@
         "difficulty": "Easy"
     },
     {
+        "question": "\\displaystyle\\lim_{x \\to 2} \\frac {x^2 - 4} {x - 2}",
+        "answer": "4",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {x^2 + x - 12} {x - 3}",
+        "answer": "7",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 6} \\frac {x^2 + 5x + 6} {x + 3}",
+        "answer": "8",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 6} \\frac {x^2 + 12x + 36} {x + 6}",
+        "answer": "12",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 5} \\frac {3x^2 + 6x} {x + 2}",
+        "answer": "15",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 20} \\frac {x^2 - 9} {x + 3}",
+        "answer": "17",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {2 - 4x^3 - x^2} {3x^3 - 5x}",
+        "answer": "-inf",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {5x^2 + 4x} {2x}",
+        "answer": "inf",
+        "difficulty": "Medium"
+    },
+    {
         "question": "\\text{Is } 4x - 9 \\text{ continuous at } x = 12",
         "answer": "continuous",
         "difficulty":"Easy"
