@@ -39,6 +39,10 @@ p {
     font-size: x-large;
 }
 
+section p {
+    margin: 5em;
+}
+
 div.button {
     width: fit-content;
     margin: 5em auto;
