@@ -158,5 +158,110 @@
         "question": "\\text{Is } \\frac {\\sqrt {x - 2}} {x - 5} \\text{ continuous at } [2, 6)",
         "answer": "discontinuous",
         "difficulty":"Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x + 14) \\vert_{x = 7}",
+        "answer": "1",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (2x) \\vert_{x = 0}",
+        "answer": "2",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (20\\ln x) \\vert_{x = 5}",
+        "answer": "4",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2) \\vert_{x = 3}",
+        "answer": "6",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d^2} {dx^2} (3x^2) \\vert_{x = 5}",
+        "answer": "6",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2 - 9) \\vert_{x = 4}",
+        "answer": "7",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2 + x) \\vert_{x = 3}",
+        "answer": "7",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (2x^4) \\vert_{x = 1}",
+        "answer": "8",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (3x^3) \\vert_{x = 1}",
+        "answer": "9",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (33\\ln x) \\vert_{x = 3}",
+        "answer": "11",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (24\\ln x) \\vert_{x = 2}",
+        "answer": "12",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2) \\vert_{x = 7}",
+        "answer": "14",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (2x^3 - 6x) \\vert_{x = 2}",
+        "answer": "18",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d^2} {dx^2} (x^3) \\vert_{x = 3}",
+        "answer": "18",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d^2} {dx^2} (x^3 + 3x^2) \\vert_{x = -1}",
+        "answer": "0",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {-32} {x^2}) \\vert_{x = 4}",
+        "answer": "1",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (8\\sqrt {x}) \\vert_{x = 4}",
+        "answer": "2",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {2\\sqrt {x^3}} {3}) \\vert_{x = 9}",
+        "answer": "3",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\cos x + 6x) \\vert_{x = \\frac {\\pi} {2}}",
+        "answer": "5",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {6x^2} {3x} + \\frac {x^4} {4}) \\vert_{x = 2}",
+        "answer": "10",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\sin x - x^2 + 12x) \\vert_{x = 0}",
+        "answer": "13",
+        "difficulty": "Medium"
     }
 ]
