@@ -60,7 +60,7 @@
         "difficulty": "Easy"
     },
     {
-        "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {-x^2} {x}",
+        "question": "\\displaystyle\\lim_{x \\to \\infty} -\\frac {x^2} {x}",
         "answer": "-inf",
         "difficulty": "Easy"
     },
@@ -275,7 +275,7 @@
         "difficulty": "Medium"
     },
     {
-        "question": "\\displaystyle\\frac {d} {dx} (\\frac {-32} {x^2}) \\vert_{x = 4}",
+        "question": "\\displaystyle\\frac {d} {dx} (-\\frac {32} {x^2}) \\vert_{x = 4}",
         "answer": "1",
         "difficulty": "Medium"
     },
