@@ -1,5 +1,10 @@
 [
     {
+        "question": "\\displaystyle\\lim_{x \\to 2} \\frac {x + 2} {x - 2}",
+        "answer": "dne",
+        "difficulty":"Easy"
+    },
+    {
         "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {5x} {7x^2}",
         "answer": "0",
         "difficulty": "Easy"
@@ -7,6 +12,11 @@
     {
         "question": "\\displaystyle\\lim_{x \\to 12} \\frac {24x} {2x^2}",
         "answer": "1",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 1} \\frac {2x + 2} {x + 1}",
+        "answer": "2",
         "difficulty": "Easy"
     },
     {
@@ -25,13 +35,18 @@
         "difficulty": "Easy"
     },
     {
-        "question": "\\displaystyle\\lim_{x \\to 5} x^2 - 15",
-        "answer": "10",
+        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {5x - 15} {x - 3}",
+        "answer": "5",
         "difficulty": "Easy"
     },
     {
-        "question": "\\displaystyle\\lim_{x \\to 2} 5x + 1",
-        "answer": "11",
+        "question": "\\displaystyle\\lim_{x \\to 3} x^2 - 2x + 3",
+        "answer": "9",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 5} x^2 - 15",
+        "answer": "10",
         "difficulty": "Easy"
     },
     {
@@ -45,7 +60,22 @@
         "difficulty": "Easy"
     },
     {
+        "question": "\\displaystyle\\lim_{x \\to 3} 2x + 7",
+        "answer": "13",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 2} 3x + 8",
+        "answer": "14",
+        "difficulty": "Easy"
+    },
+    {
         "question": "\\displaystyle\\lim_{x \\to 5} 7x - 20",
+        "answer": "15",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {12x + 9} {3}",
         "answer": "15",
         "difficulty": "Easy"
     },
@@ -85,6 +115,11 @@
         "difficulty": "Medium"
     },
     {
+        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {2x^2 + 6x} {x + 3}",
+        "answer": "6",
+        "difficulty": "Medium"
+    },
+    {
         "question": "\\displaystyle\\lim_{x \\to 3} \\frac {x^2 + x - 12} {x - 3}",
         "answer": "7",
         "difficulty": "Medium"
@@ -92,6 +127,11 @@
     {
         "question": "\\displaystyle\\lim_{x \\to 6} \\frac {x^2 + 5x + 6} {x + 3}",
         "answer": "8",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 2} \\frac {10x^2 + 2x} {2x}",
+        "answer": "11",
         "difficulty": "Medium"
     },
     {
@@ -110,6 +150,11 @@
         "difficulty": "Medium"
     },
     {
+        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {4x^2(x - 5)} {2x - 10}",
+        "answer": "18",
+        "difficulty": "Medium"
+    },
+    {
         "question": "\\displaystyle\\lim_{x \\to \\infty} \\frac {2 - 4x^3 - x^2} {3x^3 - 5x}",
         "answer": "-inf",
         "difficulty": "Medium"
@@ -120,8 +165,23 @@
         "difficulty": "Medium"
     },
     {
+        "question": "\\displaystyle\\lim_{x \\to 4} \\frac {(2x^2 - 18)(x + 3)} {2x^2 + 12x + 18}",
+        "answer": "1",
+        "difficulty": "Hard"
+    },
+    {
         "question": "\\displaystyle\\lim_{x \\to 4} \\frac {(x^2 - 2x + 1)(x + 1)} {x^2 - 1}",
         "answer": "3",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 1} \\frac {4x^2 - 8x} {2x^2 - 3x - 2}",
+        "answer": "4",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\lim_{x \\to 3} \\frac {3(x^2 + 6x + 9)} {3x + 9}",
+        "answer": "6",
         "difficulty": "Hard"
     },
     {
