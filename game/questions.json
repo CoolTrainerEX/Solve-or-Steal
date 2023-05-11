@@ -260,6 +260,16 @@
         "difficulty":"Hard"
     },
     {
+        "question": "\\displaysyle\\frac {d} {dx} (\\frac {x^2 + x} {x^2}) \\vert_{x = 0}",
+        "answer": "dne",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaysyle\\frac {d} {dx} (x^2 - 10x) \\vert_{x = 5}",
+        "answer": "0",
+        "difficulty": "Easy"
+    },
+    {
         "question": "\\displaystyle\\frac {d} {dx} (x + 14) \\vert_{x = 7}",
         "answer": "1",
         "difficulty": "Easy"
@@ -267,6 +277,11 @@
     {
         "question": "\\displaystyle\\frac {d} {dx} (2x) \\vert_{x = 0}",
         "answer": "2",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaysyle\\frac {d} {dx} (3x- 4) \\vert_{x = 23}",
+        "answer": "3",
         "difficulty": "Easy"
     },
     {
@@ -300,12 +315,27 @@
         "difficulty": "Easy"
     },
     {
+        "question": "\\displaysyle\\frac {d^2} {dx^2} (4x^2 + 13x) \\vert_{x = 8}",
+        "answer": "8",
+        "difficulty": "Easy"
+    },
+    {
         "question": "\\displaystyle\\frac {d} {dx} (3x^3) \\vert_{x = 1}",
         "answer": "9",
         "difficulty": "Easy"
     },
     {
+        "question": "\\displaysyle\\frac {d} {dx} (\\frac {5x^2} {10}) \\vert_{x = 10}",
+        "answer": "10",
+        "difficulty": "Easy"
+    },
+    {
         "question": "\\displaystyle\\frac {d} {dx} (33\\ln x) \\vert_{x = 3}",
+        "answer": "11",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaysyle\\frac {d} {dx} (x^2 + x) \\vert_{x = 5}",
         "answer": "11",
         "difficulty": "Easy"
     },
@@ -320,6 +350,16 @@
         "difficulty": "Easy"
     },
     {
+        "question": "\\displaysyle\\frac {d} {dx} (\\frac {x^3} {3}) \\vert_{x = 4}",
+        "answer": "16",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaysyle\\frac {d} {dx} (x^2 - 16) \\vert_{x = 8}",
+        "answer": "16",
+        "difficulty": "Easy"
+    },
+    {
         "question": "\\displaystyle\\frac {d} {dx} (2x^3 - 6x) \\vert_{x = 2}",
         "answer": "18",
         "difficulty": "Easy"
@@ -328,6 +368,11 @@
         "question": "\\displaystyle\\frac {d^2} {dx^2} (x^3) \\vert_{x = 3}",
         "answer": "18",
         "difficulty": "Easy"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (4x^2 + 2\\sqrt x) \\vert_{x = 2}",
+        "answer": "dne",
+        "difficulty": "Medium"
     },
     {
         "question": "\\displaystyle\\frac {d^2} {dx^2} (x^3 + 3x^2) \\vert_{x = -1}",
@@ -340,7 +385,7 @@
         "difficulty": "Medium"
     },
     {
-        "question": "\\displaystyle\\frac {d} {dx} (8\\sqrt {x}) \\vert_{x = 4}",
+        "question": "\\displaystyle\\frac {d} {dx} (8\\sqrt x) \\vert_{x = 4}",
         "answer": "2",
         "difficulty": "Medium"
     },
@@ -355,6 +400,11 @@
         "difficulty": "Medium"
     },
     {
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {x^3 + x^2 + 3x} {4]) \\vert_{x = 3}",
+        "answer": "9",
+        "difficulty": "Medium"
+    },
+    {
         "question": "\\displaystyle\\frac {d} {dx} (\\frac {6x^2} {3x} + \\frac {x^4} {4}) \\vert_{x = 2}",
         "answer": "10",
         "difficulty": "Medium"
@@ -363,5 +413,90 @@
         "question": "\\displaystyle\\frac {d} {dx} (\\sin x - x^2 + 12x) \\vert_{x = 0}",
         "answer": "13",
         "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^3 - x^2) \\vert_{x = 2}",
+        "answer": "14",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2 + \\tan \\pi) \\vert_{x = 8}",
+        "answer": "16",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (3x^4\\ln x) \\vert_{x = 0}",
+        "answer": "dne",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2 - 3x)^2 \\vert_{x = 3}",
+        "answer": "0",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d^2} {dx^2} (\\frac {1} {12} (x^4 + 2x^3)) \\vert_{x = 1}",
+        "answer": "2",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d^3} {dx^3} (\\frac {1} {3} (x^4 - \\frac {x^3} {2}) \\vert_{x = 1}",
+        "answer": "7",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (2x + 1)^2 \\vert_{x = 1}",
+        "answer": "8",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} ((x - 3)^3 - 2x) \\vert_{x = 5}",
+        "answer": "10",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} ((x + 1)^3 - \\frac {1} {5} x^5) \\vert_{x = 2}",
+        "answer": "11",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (x^2 - 7x + 18\\sqrt x) \\vert_{x = 9}",
+        "answer": "12",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d^2} {dx^2} (x^4 - 5x^3 - \\frac {x^3} {6}) \\vert_{x = 3}",
+        "answer": "15",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {(x^2 - 16)(x^4 + 4x^3)} {(3x - 12)(x^2 + 8x + 16)}) \\vert_{x = 4}",
+        "answer": "16",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {2x^4 + 18x^3} {3x + 9}) \\vert_{x = 3}",
+        "answer": "18",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "",
+        "answer": "skull",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "",
+        "answer": "skull",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "",
+        "answer": "skull",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "",
+        "answer": "skull",
+        "difficulty": "Hard"
     }
 ]
