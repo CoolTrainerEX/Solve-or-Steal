@@ -300,7 +300,7 @@
         "difficulty": "Easy"
     },
     {
-        "question": "\\displaystyle\\frac {d} {dx} (x^2 - 9) \\vert_{x = 4}",
+        "question": "\\displaystyle\\frac {d} {dx} (x^2 - x + 9) \\vert_{x = 4}",
         "answer": "7",
         "difficulty": "Easy"
     },
