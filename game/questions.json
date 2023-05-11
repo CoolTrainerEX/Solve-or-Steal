@@ -400,7 +400,7 @@
         "difficulty": "Medium"
     },
     {
-        "question": "\\displaystyle\\frac {d} {dx} (\\frac {x^3 + x^2 + 3x} {4]) \\vert_{x = 3}",
+        "question": "\\displaystyle\\frac {d} {dx} (\\frac {x^3 + x^2 + 3x} {4}) \\vert_{x = 3}",
         "answer": "9",
         "difficulty": "Medium"
     },
