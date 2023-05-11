@@ -15,7 +15,7 @@ a:hover, div.button:hover {
     background-color: white;
 }
 
-b {
+b, caption, th {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
 }
@@ -31,12 +31,41 @@ section.yellow {
     background-color: lightyellow;
 }
 
-h2 {
-    font-size: 5vw;
+table {
+    margin: auto;
+    border-collapse: collapse;
 }
 
-p {
-    font-size: x-large;
+tr, caption {
+    border-bottom: 5px solid darkblue;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: right;
+}
+
+@media only screen and (orientation: portrait) {
+    h2 {
+        font-size: 10vw;
+    }
+
+    p, caption, th, td {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    h2 {
+        font-size: 10vh;
+    }
+
+    p, caption, th, td {
+        font-size: 5vh;
+    }
 }
 
 section p {
