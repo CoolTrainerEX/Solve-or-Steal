@@ -40,7 +40,7 @@
         "difficulty": "Easy"
     },
     {
-        "question": "\\displaystyle\\lim_{x \\to 3} x^2 - 2x + 3",
+        "question": "\\displaystyle\\lim_{x \\to 3} x^2 - 2x + 6",
         "answer": "9",
         "difficulty": "Easy"
     },
